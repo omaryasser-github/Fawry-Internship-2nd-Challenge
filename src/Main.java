@@ -10,9 +10,9 @@ public class Main {
         BooksInventory inventory = new BooksInventory();
 
 
-        PaperBook paperBook = new PaperBook("ISBN001", "Java for Pros", "Omar Yasser", 2021, 250.0, 10);
-        EBook eBook = new EBook("ISBN002", "Mastering React", "Yasmin Dev", 2015, 150.0, "PDF");
-        DemoBook demoBook = new DemoBook("ISBN003", "Prototype Design", "Ali Tester", 2019 );
+        PaperBook paperBook = new PaperBook("ISBN001", "Java for Pros", 2021, 200.0, 10);
+        EBook eBook = new EBook("ISBN002", "Mastering React", 2015, 150, "PDF");
+        DemoBook demoBook = new DemoBook("ISBN003", "Prototype Design",  2019 );
 
         inventory.addBook(paperBook);
         inventory.addBook(eBook);

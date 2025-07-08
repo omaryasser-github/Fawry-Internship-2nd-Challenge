@@ -4,8 +4,8 @@ package models;
 public class EBook extends Book {
     private String fileType;
 
-    public EBook(String ISBN, String title, String author, int year, double price, String fileType) {
-        super(ISBN, title, author, year, price);
+    public EBook(String ISBN, String title, int year, double price, String fileType) {
+        super(ISBN, title, year, price);
         this.fileType = fileType;
     }
 
